@@ -8,14 +8,14 @@ Sebelum menjalankan Streamlit, pastikan Anda memiliki Python dan pip terinstal d
 Jika belum menginstal Streamlit, jalankan perintah berikut:
 
 ```bash
-pip install streamlit
+pip install -r requirements.txt
 ```
 
 ## **2. Masuk ke Direktori Dashboard**
 Arahkan terminal atau command prompt ke dalam direktori tempat file `dashboard.py` berada:
 
 ```bash
-cd submission/dashboard
+cd dashboard
 ```
 
 ## **3. Jalankan Streamlit**
@@ -34,16 +34,4 @@ Network URL: http://192.168.x.x:8501
 ```
 
 Buka browser dan akses URL **http://localhost:8501** untuk melihat dashboard.
-
-## **5. Troubleshooting (Opsional)**
-Jika mengalami kendala:
-- Pastikan semua dependensi telah diinstal dengan:
-  ```bash
-  pip install -r ../requirements.txt
-  ```
-- Jika ada perubahan pada kode, restart Streamlit dengan menekan **Ctrl + C** lalu menjalankan kembali perintah **streamlit run dashboard.py**.
-
----
-Sekarang dashboard Anda siap dijalankan secara lokal! 🚀
-
 
